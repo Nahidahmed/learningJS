@@ -1,9 +1,9 @@
 .icon-bar {
     position: fixed;
-    top: 40%;
-    -webkit-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
+    top: 65%;
+    -webkit-transform: translateY(-65%);
+    -ms-transform: translateY(-65%);
+    transform: translateY(-65%);
   }
   
   .icon-bar a {
