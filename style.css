@@ -51,7 +51,16 @@
     position: absolute;
     right: 20px;
     top: 20px;
+    max-width: 15%;
+  }
 
+  .pmquote {
+    position: absolute;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1vw;
+    top: 150px;
+    margin-left: 500px;
   }
 
   html {
