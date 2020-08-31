@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head lang="en">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176846117-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-176846117-1');
+        </script>        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nahid Ahmed Mansuri, PMP</title>
         <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link  rel="stylesheet"   href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+        <script src="node_modules/@fortawesome/fontawesome-free/js/all.js" charset="utf-8"></script>
         <link rel="stylesheet" href="style.css">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176846117-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-176846117-1');
-        </script>
+        <script src="https://kit.fontawesome.com/5be02e22d1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="credentials">
+        <!-- <div class="credentials">
             <h1>Nahid Ahmed Mansuri, <a href="https://www.youracclaim.com/badges/4a2a2137-c65a-417a-bbf1-9f7a1f7bba64/public_url">
                 <img src="project-management-professional-pmp.png" alt="project-management-professional-pmp-acclaim-badge" style="width:42px;height:42px;"></a></h1>
 
             <div data-iframe-width="350" data-iframe-height="270" data-share-badge-id="4a2a2137-c65a-417a-bbf1-9f7a1f7bba64" data-share-badge-host="https://www.youracclaim.com">
             </div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-        </div>    
+        </div>     -->
 
-        <pre class="pmquote">“Those who plan do better than those who do not plan, 
-            even though they rarely stick to their plan.” – Winston Churchill</pre>
+        <div class="quote-container" id="quote-container">
+            <!-- Quote -->
+            <div class="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote">Those who plan do better than those who do not plan, even though they rarely stick to their plan.”</span>
+            </div>
+            <!-- Author -->
+            <div class="quote-author">
+                <span id="author">Winston Churchill</span>
+            </div>
+            <!-- Buttons -->
+            <div class="button-container">
+                <button class="twitter-button" id="twitter" title="Tweet It!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New Quote</button>
+            </div>
+        </div>
+        <!-- <pre class="pmquote">“Those who plan do better than those who do not plan, 
+            even though they rarely stick to their plan.” – Winston Churchill</pre> -->
 
-        <img class="profilePic" src="Nahid-Ahmed-Mansuri.jpg" alt="Nahid-Ahmed-Mansuri">
+        <!-- <img class="profilePic" src="Nahid-Ahmed-Mansuri.jpg" alt="Nahid-Ahmed-Mansuri"> -->
 
-        <div class="icon-bar">
+        <!-- <div class="icon-bar">
             <a href="https://twitter.com/NahidAhmed" class="twitter"><i class="fa fa-twitter"></i></a> 
             <a href="https://www.instagram.com/nahmedmansuri/" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/in/nahidahmedmansuri/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        </div>
+        </div> -->
 
-        <div class="content">
+        <!-- <div class="content">
             <p>A PMP certified professional having more than 15 years of experience in the software industry.</p>
             <p>Over the course of my experience I got opportunity to work in various domains starting from health care to current
                fascinating world of e-commerce applications where everyday there is something new to learn.
@@ -55,10 +71,7 @@
                It also needs a project management which does the balancing act and makes sure customer get what they are looking for. 
             </p>
             <p>Welcome to my world where i share my experiences with you and we learn mutually!</p>
-        </div>
-        <footer>
-            <p><a href="mailto:nahid.mansuri@gmail.com">nahid.mansuri@gmail.com</a></p>
-          </footer>
+        </div> -->
         <!--Script-->
         <script src="script.js"></script>
              
