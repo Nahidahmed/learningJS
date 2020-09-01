@@ -6,13 +6,11 @@ const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
 
-//Show Loading
 function startLoading() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
-//Hide Loading
 function stopLoading() {
     if(!loader.hidden){
         quoteContainer.hidden = false;
