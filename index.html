@@ -20,45 +20,69 @@
         <script src="https://kit.fontawesome.com/5be02e22d1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="credentials">
+        <!-- Menu Overlay -->
+        <div class="overlay" id="overlay">
+            <!-- Menu Items -->
+            <nav>
+                <ul>
+                    <li id="nav-1"><a href="#home">Home</a></li>
+                    <li id="nav-2"><a href="#about">About</a></li>
+                    <li id="nav-3"><a href="#skills">Skills</a></li>
+                    <li id="nav-4"><a href="#projects">Projects</a></li>
+                    <li id="nav-5"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menu Bars -->
+        <div class="menu-bars" id="menu-bars">
+            <div class="bar1" id="bar1"></div>
+            <div class="bar2" id="bar2"></div>
+            <div class="bar3" id="bar3"></div>
+        </div>
+        <div>
+            <section id="home"><a href="https://nahidahmed.github.io/learningJS/" target="_blank">Nahid Ahmed Mansuri</a></section>
+            <section id="about"><h1>Learn More about me</h1></section>
+            <section id="skills"><h1>My Strengths</h1></section>
+            <section id="projects"><h1>My Projects</h1></section>
+            <section id="contact"><h1>Available Anytime</h1></section>
+        </div>
+
+        <!-- <div class="credentials">
             <h1>Nahid Ahmed Mansuri, <a href="https://www.youracclaim.com/badges/4a2a2137-c65a-417a-bbf1-9f7a1f7bba64/public_url">
                 <img src="project-management-professional-pmp.png" alt="project-management-professional-pmp-acclaim-badge" style="width:42px;height:42px;"></a></h1>
 
             <div data-iframe-width="350" data-iframe-height="270" data-share-badge-id="4a2a2137-c65a-417a-bbf1-9f7a1f7bba64" data-share-badge-host="https://www.youracclaim.com">
             </div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-        </div>     
+        </div>      -->
 
-        <div class="quote-container" id="quote-container">
-            <!-- Quote -->
+        <!-- <div class="quote-container" id="quote-container">
             <div class="quote-text">
                 <i class="fas fa-quote-left"></i>
                 <span id="quote"></span>
             </div>
-            <!-- Author -->
             <div class="quote-author">
                 <span id="author"></span>
             </div>
-            <!-- Buttons -->
             <div class="button-container">
                 <button class="twitter-button" id="twitter" title="Tweet It!">
                     <i class="fab fa-twitter"></i>
                 </button>
                 <button id="new-quote">New Quote</button>
             </div>
-        </div>
+        </div> -->
         <!-- Loader -->
-        <div class="loader" id="loader"></div>
+        <!-- <div class="loader" id="loader"></div> -->
 
         <!-- <img class="profilePic" src="Nahid-Ahmed-Mansuri.jpg" alt="Nahid-Ahmed-Mansuri"> -->
 
-        <div class="icon-bar">
+        <!-- <div class="icon-bar">
             <a href="https://twitter.com/NahidAhmed" class="twitter"><i class="fa fa-twitter"></i></a> 
             <a href="https://www.instagram.com/nahmedmansuri/" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/in/nahidahmedmansuri/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        </div>
+        </div> -->
 
-        <div class="content">
-            <p>A PMP certified professional having more than 15 years of experience in the software industry.
+        <!-- <div class="content">
+            <p style="color: whitesmoke;">A PMP certified professional having more than 15 years of experience in the software industry.
             Over the course of my experience I got opportunity to work in various domains starting from health care to current
             fascinating world of e-commerce applications where everyday there is something new to learn.
             
@@ -80,8 +104,9 @@
             
         </div>
 
-        <!--Script-->
+        <div class="svgLoader" hidden>
+            <img src="loader.svg" alt="Loader">
+        </div> -->
         <script src="script.js"></script>
-             
     </body>
 </html>
