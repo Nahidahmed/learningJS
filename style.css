@@ -333,15 +333,13 @@ section#contact {
     text-align: center;
   }*/
   .quote-container{
+    width: 100%;
+    height: 32%;
     position: absolute;
-    right: 20px;
-
-      top: 5px;
-      max-width: 600px;
-      padding: 5px 10px;
-      border-radius: 10px;
-      background-color: white;
-      box-shadow: 5px 10px 10px  grey;
+    top: 10%;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 10px 10px  grey;
   }
 
   .quote-text {

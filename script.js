@@ -112,4 +112,4 @@ navItems.forEach((nav)=>{
 });
 
 //On Load
-//getQuote();
+getQuote();
