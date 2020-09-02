@@ -52,6 +52,7 @@ async function getQuote(){
             authorText.innerText = data.quoteAuthor;
         }
         
+        console.log('data.quoteText.length = ',data.quoteText.length)
         //Reduce font size for long quote
         if(data.quoteText.length > 120){
             quoteText.classList.add('long-quote');
