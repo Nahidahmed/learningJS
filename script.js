@@ -1,3 +1,7 @@
+google.charts.load('current', {'packages':['timeline']});
+google.charts.setOnLoadCallback(drawChart);
+
+
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
@@ -13,6 +17,30 @@ const nav3 = document.getElementById('nav-3');
 const nav4 = document.getElementById('nav-4');
 const nav5 = document.getElementById('nav-5');
 const navItems = [nav1,nav2,nav3,nav4,nav5];
+
+function drawChart() {
+    var container = document.getElementById('timeline-tooltip');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+
+    dataTable.addColumn({ type: 'string', id: 'President' });
+    dataTable.addColumn({ type: 'string', id: 'dummy bar label' });
+    dataTable.addColumn({ type: 'string', role: 'tooltip' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'Education', null, 'Bachelors in Computer Science', new Date(2000, 4, 1), new Date(2004,5,1) ],
+      [ 'Software Engineer', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2006, 1, 5),  new Date(2009, 1, 5) ],
+      [ 'Senior Software Engineer', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2009, 1, 5),  new Date(2012, 1, 5) ],
+      [ 'Team Lead', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2012, 1, 5),  new Date(2015, 5, 1) ],
+      [ 'Senior Consultant', null, 'System Soft Technologies - US Based IT Servics Company', new Date(2015, 5, 1),  new Date(2016, 11, 1) ],
+      [ 'Project Manager', null, 'L&T Technology Services', new Date(2016, 12, 1),  new Date(2017, 6, 1) ],
+      [ 'Technical Lead', null, 'Evoke Technologies', new Date(2017, 6, 1),  new Date(2019, 4, 1) ],
+      [ 'Project Manager ', null, 'JD Sports Fashion India plc - UK Based Ecommerce Company', new Date(2019, 5, 1),  new Date(2020, 5, 1) ]
+       ]);
+
+    chart.draw(dataTable);
+  }
 
 function startLoading() {
     if(loader){

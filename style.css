@@ -5,7 +5,7 @@
   --navColor1: #21292c;
   --navColor2: rgb(0, 89, 255);
   --navColor3: red;
-  --navColor4:orange;
+  --navColor4:black;
   --navColor5: green;
 }
 
@@ -130,6 +130,16 @@ nav li:nth-of-type(5){
   animation: slide-in 0.4s linear 1s both;
 }
 
+
+.career-timeline{
+  width: 80vw;
+  height: 90vh;
+  justify-content: stretch;
+  color: black;
+  letter-spacing: 0;
+  text-transform:initial;
+}
+
 @keyframes slide-in{
   from {
     transform: translateX(-100%);
@@ -247,7 +257,7 @@ section#achievements {
   background-color: var(--navColor3);
 }
 
-section#projects {
+section#careerTimeline {
   background-color: var(--navColor4);
 }
 
