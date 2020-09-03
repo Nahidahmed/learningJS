@@ -29,14 +29,14 @@ function drawChart() {
     dataTable.addColumn({ type: 'date', id: 'Start' });
     dataTable.addColumn({ type: 'date', id: 'End' });
     dataTable.addRows([
-      [ 'Education', null, 'Bachelors in Computer Science', new Date(2000, 4, 1), new Date(2004,5,1) ],
-      [ 'Software Engineer', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2006, 1, 5),  new Date(2009, 1, 5) ],
-      [ 'Senior Software Engineer', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2009, 1, 5),  new Date(2012, 1, 5) ],
-      [ 'Team Lead', null, 'Mainspring HealthCare - US Based Heatlthcare Company', new Date(2012, 1, 5),  new Date(2015, 5, 1) ],
-      [ 'Senior Consultant', null, 'System Soft Technologies - US Based IT Servics Company', new Date(2015, 5, 1),  new Date(2016, 11, 1) ],
-      [ 'Project Manager', null, 'L&T Technology Services', new Date(2016, 12, 1),  new Date(2017, 6, 1) ],
-      [ 'Technical Lead', null, 'Evoke Technologies', new Date(2017, 6, 1),  new Date(2019, 4, 1) ],
-      [ 'Project Manager ', null, 'JD Sports Fashion India plc - UK Based Ecommerce Company', new Date(2019, 5, 1),  new Date(2020, 5, 1) ]
+      [ 'Education', 'Bachelors in Computer Science', '4 years engineering graduation in Computer Science', new Date(2000, 4, 1), new Date(2004,4,1) ],
+      [ 'Software Engineer', 'Mainspring HealthCare Solutions', 'A US Based Heatlthcare Company', new Date(2006, 1, 5),  new Date(2009, 1, 5) ],
+      [ 'Senior Software Engineer', 'Mainspring HealthCare Solutions', 'A US Based Heatlthcare Company', new Date(2009, 1, 5),  new Date(2012, 1, 5) ],
+      [ 'Team Lead', 'Mainspring HealthCare Solutions', 'A US Based Heatlthcare Company', new Date(2012, 1, 5),  new Date(2015, 1, 5) ],
+      [ 'Senior Consultant', 'System Soft Technologies', 'A US Based IT Services Company', new Date(2015, 5, 1),  new Date(2016, 11, 1) ],
+      [ 'Project Manager', 'L&T Technology Services', 'An India based IT Services Company', new Date(2016, 12, 1),  new Date(2017, 6, 1) ],
+      [ 'Technical Lead', 'Evoke Technologies', 'An India based IT Services Company', new Date(2017, 6, 1),  new Date(2019, 4, 1) ],
+      [ 'Project Manager ', 'JD Sports Fashion India plc', 'Present Company - A UK Based Ecommerce/Retail Company', new Date(2019, 5, 1),  new Date(2020, 5, 1) ]
        ]);
 
     chart.draw(dataTable);

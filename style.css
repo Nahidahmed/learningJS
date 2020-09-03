@@ -5,7 +5,7 @@
   --navColor1: #21292c;
   --navColor2: rgb(0, 89, 255);
   --navColor3: red;
-  --navColor4:black;
+  --navColor4 : black;
   --navColor5: green;
 }
 
@@ -132,10 +132,12 @@ nav li:nth-of-type(5){
 
 
 .career-timeline{
-  width: 80vw;
-  height: 90vh;
+  width: 100vw;
+  height: 45vh;
+  align-items: center;
   justify-content: stretch;
-  color: black;
+  color:black;
+  background-color: white;
   letter-spacing: 0;
   text-transform:initial;
 }
