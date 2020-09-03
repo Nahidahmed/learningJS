@@ -269,6 +269,14 @@ section#contact {
     background-color: #000;    
   }
   
+  .whatsapp{
+    background: lightgreen;
+    color: white;
+  }
+  .whatsapp:hover{
+    background :lightgreen;
+  }
+
   .linkedin:hover{
     background: #007bb5;
   }
