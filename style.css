@@ -142,6 +142,17 @@ nav li:nth-of-type(5){
   text-transform:initial;
 }
 
+
+.achievements{
+  align-items: center;
+  justify-content: center;
+}
+
+.achievements ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 @keyframes slide-in{
   from {
     transform: translateX(-100%);
