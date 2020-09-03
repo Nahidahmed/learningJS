@@ -224,7 +224,7 @@ section {
 section#home {
   background-image: url("https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 section#home a {
@@ -243,7 +243,7 @@ section#about {
   background-color: var(--navColor2);
 }
 
-section#skills {
+section#achievements {
   background-color: var(--navColor3);
 }
 
@@ -255,29 +255,32 @@ section#contact {
   background-color: var(--navColor5);
 }
 
-.icon-bar {
-    position: absolute;
-    left: 0;
-    top: 65%;
-    -webkit-transform: translateY(-65%);
-    -ms-transform: translateY(-65%);
-    transform: translateY(-65%);
+.socialMedias{
+  font-size: xx-large;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+  
+  .socialMedias a {
+    padding: 20px;
+    margin: 5px;
+    background-color: #000;    
   }
   
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
+  .linkedin:hover{
+    background: #007bb5;
   }
-  
-  .icon-bar a:hover {
-    background-color: #000;
+
+  .twitter:hover{
+    background: #55ACEE;
   }
-  
-  
+
+  .fa-instagram:hover{
+    background: #7a1288;
+  }
+
   .twitter {
     background: #55ACEE;
     color: white;
@@ -294,20 +297,6 @@ section#contact {
     color: white;
   }
   
-  .content {
-    margin-left: 75px;
-    font-size: 20px;
-    position: absolute;
-    top: 400px;
-    
-  }
-
-  .credentials {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    max-width: 30%;
-  }
 
   .profilePic {
     position: absolute;
