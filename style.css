@@ -411,8 +411,7 @@ section#contact {
 .loader {
   position: fixed;
   top: 20%;
-  left: 50%;
-  align-items: center;
+  left: 40%;
   border: 16px solid whitesmoke; 
   border-radius: 50%;
   border-top: 16px solid blue;
